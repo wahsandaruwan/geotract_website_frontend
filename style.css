@@ -43,11 +43,12 @@ nav{
 }
 
 nav ul{
-    width: 25%;
+    flex-basis: 25%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    background-color: aqua;
 }
 
 nav ul li{
@@ -61,7 +62,7 @@ nav ul li a{
 }
 
 nav .icons{
-    width: 8%;
+    flex-basis: 8%;
     display: flex;
     justify-content: space-between;
     align-items: center;
