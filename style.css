@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* -----Reset----- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -----Whole Doc----- */
+body{
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    background-color: #B53471;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* ---Header--- */
+.header{
+    height: 100vh;
+    padding-top: 30px;
+    background-color: #B53471;
+    background-image: url(./img/lightwave.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+nav{
+    width: 50%;
+    background-color: #B53471;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 50px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 10px #9b2e61,
+                -8px -8px 10px #ca3e7f;
+}
+
+nav ul{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li{
+    padding: 0 10px;
+}
+
+nav ul li a{
+    color: #fff;
+    font-weight: 400;
+    font-size: 0.95rem;
+}
+
+nav .icons{
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+}
+
+nav .icons a{
+    padding: 0 7px;
+}
+
+nav .icons a i{
+    font-size: 1.3rem;
+    color: #fff;
+}
